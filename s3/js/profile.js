@@ -38,6 +38,7 @@ var vm = new Vue({
         .then(function(json) {
           var content = JSON.stringify(json, null, 2);
           window.console.log("User Updated\n" + content);
+          alert("更新完了");
         })
         .catch(function(err) {
           window.console.error(err.message);

@@ -6,7 +6,7 @@ exports.handler = (event, context, callback) => {
         },
         body: JSON.stringify({"message" : ""})
   };
-
+//
   //TODO: 変数qnameにクエリストリングのnameに該当する値を代入してください。
   var qname = event.queryStringParameters.name;
   //TODO: responseオブジェクトのbodyプロパティに変数qnameを代入してください。

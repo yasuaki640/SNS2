@@ -9,6 +9,6 @@ provider:
 
 functions:
   slack:
-    handler: lambda/sns2-echo-get.js
+    handler: src/index.js
     description: "Post message to Slack"
     timeout: 60

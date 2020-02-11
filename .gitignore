@@ -1,0 +1,15 @@
+# distフォルダ
+dist/
+dist.zip
+
+# node_modulesフォルダ
+node_modules/
+
+# for Mac
+.DS_Store
+package-lock.json
+
+gulpfile.js
+lambda-config.js
+package.json
+s3-config.json

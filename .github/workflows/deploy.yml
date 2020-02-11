@@ -1,9 +1,9 @@
 on:
   push:
-    paths:
-    - 'lambda/**'
-    # branches:
-    #   - master
+    # paths:
+    # - 'lambda**'
+     branches:
+       - master
 
 name: Auto Deploy to AWS Lambda
 

@@ -8,13 +8,13 @@ provider:
   environment:
     SLACK_WEBHOOK: ${env:SLACK_WEBHOOK}
 
-package:
-  exclude:
-    - Dockerfile
-    - docker-compose.yml
+# package:
+#   exclude:
+#     - Dockerfile
+#     - docker-compose.yml
 
 functions:
   slack:
-    handler: src/index.post
+    handler: lambda/index.post
     description: "Post message to Slack"
     timeout: 60

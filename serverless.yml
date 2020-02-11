@@ -4,11 +4,11 @@ provider:
   region: ap-northeast-1
   timeout: 120
 
-  environment:
-    SLACK_WEBHOOK: ${env:SLACK_WEBHOOK}
+#   environment:
+#     SLACK_WEBHOOK: ${env:SLACK_WEBHOOK}
 
-functions:
-  slack:
-    # handler: lambda/index.post
-    description: "Post message to Slack"
-    timeout: 60
+# functions:
+#   slack:
+#     # handler: lambda/index.post
+#     description: "Post message to Slack"
+#     timeout: 60

@@ -1,9 +1,9 @@
 on:
   push:
-    paths-ignore:
-      - 's3/**'
     branches:
       - master
+        paths-ignore:
+          - 's3/**'
 
 name: Auto Deploy to AWS Lambda
 

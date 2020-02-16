@@ -13,3 +13,4 @@ gulpfile.js
 lambda-config.js
 package.json
 s3-config.json
+s3\common\config.js

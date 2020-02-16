@@ -113,7 +113,7 @@ exports.handler = (event, context, callback) => {
     if (err) {
       response.statusCode = 500;
       response.body = JSON.stringify({
-        message: "予期せぬエラーが発生しました"
+        message: "予期せぬエラーが発生しました" + err
       });
       callback(null, response);
       return;

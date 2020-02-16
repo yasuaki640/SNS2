@@ -78,7 +78,7 @@ var vm = new Vue({
   created: function() {
     // Vue.jsの読み込みが完了したときに実行する処理はここに記述する
     // APIにGETリクエストを送る
-    fetch(url + "/user/get/" +
+    fetch(url + "/user" +
     "?userId=" + localStorage.getItem('userId'), {
       method: "GET"
     })
